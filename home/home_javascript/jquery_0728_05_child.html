@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUERY 처음 하는 방법 select 로 하는 방법 element</title>    
+    
+    <style>
+        #{
+            background-color: rgb(122, 98, 66);
+        }
+    </style>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(function(){
+            $("#menu1 li:nth-child(1n)")
+           .css({"background-color":"#f50"});
+
+           $("#menu1 li:nth-child(1n)")
+           .css({"border":"2px dashed #ff0"});
+
+           $("#menu2 li:nth-last-child(3n)")
+           .css({"background-color":"#09f"});
+
+        });
+    </script>
+    
+</head>
+<body id="theBody">
+    
+    <body>
+        <h1 >탐색 선택자    </h1>
+        <ul id="menu1">
+            <li> 내용 1-1   </li>
+            <li> 내용 1-2   </li>
+            <li> 내용 1-3   </li>
+            <li> 내용 1-4   </li>
+
+        </ul>
+        <ul id="menu2">
+            <li> 내용 2-1   </li>
+            <li> 내용 2-2   </li>
+            <li> 내용 2-3   </li>
+            <li> 내용 2-4   </li>
+            <li> 내용 2-4   </li>
+            <li> 내용 2-1   </li>
+            <li> 내용 2-2   </li>
+            <li> 내용 2-3   </li>
+            <li> 내용 2-4   </li>
+            <li> 내용 2-4   </li>
+
+        </ul>
+    </body>
+
+</html>

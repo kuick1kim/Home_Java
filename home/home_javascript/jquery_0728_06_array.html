@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUERY 처음 하는 방법 select 로 하는 방법 element</title>    
+    
+    <style>
+        #{
+            background-color: rgb(122, 98, 66);
+        }
+    </style>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(function(){
+            var arr1 = ["서울","대전","부산","전주","시흥"];
+            var arr2 = ["한국","미국","일본","호주","중국"];
+            var obj ={
+                "name" : "정부장",
+                "area" : "서울"
+            }
+
+            var idxNum = $.inArray("부산",arr1);
+            console.log(idxNum);
+
+            var okArray1 = $.isArray(arr1);
+            var okArray2 = $.isArray(arr2);
+            console.log(okArray1);
+            console.log(okArray2);
+
+            $.merge(arr2, arr1);
+            console.log(arr2);
+            // console.
+            document.write(arr2)
+        });
+    </script>
+    
+</head>
+<body id="theBody">
+    
+    <body>
+        <h1 >탐색 선택자    </h1>
+        <ul id="menu1">
+            <li> 내용 1-1   </li>
+            <li> 내용 1-2   </li>
+            <li> 내용 1-3   </li>
+            <li> 내용 1-4   </li>
+
+        </ul>
+        <ul id="menu2">
+            <li> 내용 2-1   </li>
+            <li> 내용 2-2   </li>
+            <li> 내용 2-3   </li>
+            <li> 내용 2-4   </li>
+            <li> 내용 2-4   </li>
+            <li> 내용 2-1   </li>
+            <li> 내용 2-2   </li>
+            <li> 내용 2-3   </li>
+            <li> 내용 2-4   </li>
+            <li> 내용 2-4   </li>
+
+        </ul>
+    </body>
+
+</html>
