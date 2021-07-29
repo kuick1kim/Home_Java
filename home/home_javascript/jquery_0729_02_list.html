@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUERY 처음 하는 방법 select 로 하는 방법 element</title>    
+    
+    <!-- <style>
+        #{
+            background-color: rgb(122, 98, 66);
+        }
+    </style> -->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(function(){
+            $("<li>Append</li>").appendTo("#listZone");
+            $("#listZone").prepend("<li> prepend</li>");
+            $("#listZone").prepend("<li> prepㄴㅇㅁend</li>");
+
+
+           
+        });
+    </script>
+    </head>
+    <body>
+      <ul id="listZone">
+          <li>리스트</li>
+
+      </ul>
+            
+    </body>
+    </html>
