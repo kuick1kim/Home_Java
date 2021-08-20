@@ -297,3 +297,29 @@ fviz_pca_var(Principal_Componet, col.var="contrib",
 
 fviz_pca_biplot(Principal_Componet, repel = FALSE)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
